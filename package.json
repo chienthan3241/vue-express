@@ -3,6 +3,7 @@
   "description": "A Vue.js project",
   "author": "mct",
   "private": true,
+  "engines" : { "node" : "=10.15.3" },
   "scripts": {
     "start": "node ./server/server.js",
     "watch-client": "watchify --entry client/src/client.js --outfile client/public/js/bundle.js --verbose ",
